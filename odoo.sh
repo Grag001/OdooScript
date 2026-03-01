@@ -5,7 +5,7 @@ set -euo pipefail
 #  Script d’install Odoo dev
 # ============================
 # Usage :
-#   ./install_odoo.sh -v 19.0 -d Odoo19 -u odoo
+#   ./odoo.sh -v 19.0 -d Odoo19 -u odoo
 # Options :
 #   -v  Branche/version git (ex: 19.0, 18.0, master)
 #   -d  Nom de la base de données PostgreSQL
