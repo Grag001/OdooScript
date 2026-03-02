@@ -102,7 +102,7 @@ fi
 if sudo -u postgres psql -lqt | cut -d \| -f 1 | tr -d ' ' | grep -qw "${DB_NAME}"; then
     echo "Base de données ${DB_NAME} existe déjà, on ne la recrée pas."
 else
-    sudo -u postgres createdb -O "${DB_USER}" "${DB_NAME}"
+    su - postgres -c "createdb -O '${DB_USER}' -E UTF8 -T template0 '${DB_NAME}'"
     echo "Base de données ${DB_NAME} créée."
 fi
 
