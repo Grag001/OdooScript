@@ -18,7 +18,7 @@ ODDO_VERSION="19.0"
 DB_NAME="Odoo19"
 DB_USER="odoo19"
 DB_PASSWORD=""
-INSTALL_DIR="/"
+INSTALL_DIR="/opt/odoo"
 REPO_URL="https://github.com/odoo/odoo.git"
 
 usage() {
