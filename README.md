@@ -7,5 +7,5 @@ Ceci est un script simple permettant d’installer Odoo sur un conteneur LXC sou
   -d  Nom de la base de données PostgreSQL
   -u  Nom de l’utilisateur PostgreSQL
   -p  Mot de passe PostgreSQL (optionnel, sinon laissé vide)
-  -r  Répertoire racine d’install (défaut: /opt/odoo)
+  -r  Répertoire racine d’install (défaut: /)
   -h  Aide
