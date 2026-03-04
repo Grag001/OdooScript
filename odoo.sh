@@ -15,8 +15,8 @@ set -euo pipefail
 #   -h  Aide
 
 ODDO_VERSION="19.0"
-DB_NAME="Odoo19"
-DB_USER="odoo19"
+DB_NAME="Main"
+DB_USER="odoo"
 DB_PASSWORD=""
 INSTALL_DIR="/opt/odoo"
 REPO_URL="https://github.com/odoo/odoo.git"
